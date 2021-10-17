@@ -38,7 +38,6 @@ Contributions and Ideas are always welcome!
 
 9. Add and commit the changes.  
 `git add .`  
-
 `git commit -m <Relevant_Commit_Message>`
 
 10. Push changes to the forked remote repository.  
