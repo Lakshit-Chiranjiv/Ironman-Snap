@@ -21,17 +21,26 @@ h1{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	/* justify-content: space-evenly; */
 	/*background-color: #ddd;*/
 
 }
+.mark3{
+	width: 400px;
+}
+
 
 .container{
 	width: 250px;
 	height: 400px;
 	perspective: 1000px;
 	cursor: pointer;
+
 }
 
+/* .ironhelmet{
+	
+} */
 .img, .img::before{
 	background-image: url("iron.jpg");
 	background-size: cover;
