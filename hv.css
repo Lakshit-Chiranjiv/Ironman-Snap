@@ -21,12 +21,13 @@ h1{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	/* justify-content: space-evenly; */
+	flex-flow: wrap;
+	/* justify-content:space-between; */
 	/*background-color: #ddd;*/
 
 }
-.mark3{
-	width: 400px;
+.mark1{
+	flex-shrink: 1;
 }
 
 
@@ -35,7 +36,13 @@ h1{
 	height: 400px;
 	perspective: 1000px;
 	cursor: pointer;
-
+	display: inline-block;
+}
+.helmet{
+	flex-shrink: 1;
+}
+.helmet2{
+	flex-shrink: 1;
 }
 
 /* .ironhelmet{
@@ -71,4 +78,16 @@ h1{
 
 .img:hover{
 	transform: rotateY(45deg) scale(1.1);
+}
+
+@media(max-width: 1140px){
+	.flex-part{
+		display: block;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+	.container{
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
 }
