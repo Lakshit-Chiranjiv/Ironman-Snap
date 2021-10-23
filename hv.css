@@ -63,3 +63,7 @@ h1{
 .img:hover{
 	transform: rotateY(45deg) scale(1.1);
 }
+
+.footer{
+	border: 2px solid black;
+}
