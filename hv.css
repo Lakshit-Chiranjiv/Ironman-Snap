@@ -80,6 +80,11 @@ h1{
 	transform: rotateY(45deg) scale(1.1);
 }
 
+.footer{
+	border: 2px solid black;
+}
+
+
 @media(max-width: 1140px){
 	.flex-part{
 		display: block;
@@ -91,3 +96,4 @@ h1{
 		margin-bottom: 10%;
 	}
 }
+
